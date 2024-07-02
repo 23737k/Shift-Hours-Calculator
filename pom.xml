@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.shiftHoursCalculatorApp</groupId>
-	<artifactId>shifHoursCalculator</artifactId>
+	<artifactId>shiftHoursCalculator</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>shifHoursCalculator</name>
+	<name>shiftHoursCalculator</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>

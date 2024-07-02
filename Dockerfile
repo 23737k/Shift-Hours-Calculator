@@ -3,6 +3,6 @@ COPY . .
 RUN mvn clean package -DskipTests
 
 FROM openjdk:17.0.1-jdk-slim
-COPY --from=build /target/shiftHoursCalculator-0.0.1-SNAPSHOT.jar shiftHoursCalculator.jar
+COPY --from=build /target/shifHoursCalculator-0.0.1-SNAPSHOT.jar shiftHoursCalculator.jar
 EXPOSE 8080
 ENTRYPOINT ["java","-jar","shiftHoursCalculator.jar"]
