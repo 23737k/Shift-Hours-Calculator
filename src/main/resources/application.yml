@@ -1,8 +1,10 @@
 spring:
   application:
     name: shiftHoursCalculatorApp
+  profiles:
+    #active: local
   datasource:
-    url: jdbc:mysql://ultorkd0rnesgg9h:ANZwH4V6NgLCbqgsAXOe@bpn4pcjfchxvbw7ajzwv-mysql.services.clever-cloud.com:3306/bpn4pcjfchxvbw7ajzwv
+    url: jdbc:mysql://bpn4pcjfchxvbw7ajzwv-mysql.services.clever-cloud.com:3306/bpn4pcjfchxvbw7ajzwv
     username: ultorkd0rnesgg9h
     password: ANZwH4V6NgLCbqgsAXOe
     driver-class-name: com.mysql.cj.jdbc.Driver
