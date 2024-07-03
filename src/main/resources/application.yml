@@ -1,7 +1,7 @@
 spring:
   application:
     name: shiftHoursCalculatorApp
-  profiles:
+  #profiles:
     #active: local
   datasource:
     url: jdbc:mysql://bpn4pcjfchxvbw7ajzwv-mysql.services.clever-cloud.com:3306/bpn4pcjfchxvbw7ajzwv
